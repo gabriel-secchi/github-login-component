@@ -1,0 +1,1 @@
+body,html{margin:0;padding:0}.my-panel{display:flex;align-items:center;flex-wrap:wrap;margin-top:30px}.my-panel.centered{justify-content:center}.my-panel .column{padding:15px;border:1px solid silver;border-radius:4px;box-sizing:border-box}.my-panel .column:not(:last-child){margin-right:15px}
