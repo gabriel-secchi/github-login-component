@@ -1,0 +1,22 @@
+<div class="my-panel centered">
+  <div class="column panel-login">
+    <img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="github">
+    <div class="input">
+      <input #email type="text" placeholder="E-mail" value="gabrielsecchi@hotmail.com">
+    </div>
+    <div class="input">
+      <input #password type="password" placeholder="Passord" value="EDRftg12">
+    </div>
+    <button type="button" name="button" (click)="githubLogin()">Login</button>
+  </div>
+</div>
+<div *ngIf="githubUser" class="my-panel centered">
+  <div class="column">
+    <img src="{{githubUser.avatar_url}}">
+    <div class="data">
+      <span>{{githubUser.name}}</span>
+      <span>{{githubUser.login}}</span>
+      <span>{{githubUser.email}}</span>
+    </div>
+  </div>
+</div>

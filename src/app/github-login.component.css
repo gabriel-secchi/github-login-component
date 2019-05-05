@@ -1,0 +1,80 @@
+.panel-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.panel-login > img {
+  max-width: 50px;
+}
+
+.panel-login > *:not(:first-child) {
+  margin-top: 15px;
+}
+
+.panel-login > .input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.panel-login > .input > input {
+  width: 100%;
+}
+
+.panel-login > button {
+  color: white;
+  background-color: black;
+  border: 0;
+  padding: 5px 15px;
+  font-size: 110%;
+  cursor: pointer;
+  transition: .3s ease;
+}
+.panel-login > button:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.panel-followers {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.panel-followers .followers-users {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.column {
+  display: flex;
+  align-items: center;
+  min-width: 250px;
+}
+
+.column > img  {
+  max-width: 60px;
+  max-height: 60px;
+  border-radius: 50%;
+}
+
+.column .data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.column .data span:first-child {
+  font-weight: bold;
+}
+
+.column .data span:not(:first-child) {
+  font-size: 80%;
+}
